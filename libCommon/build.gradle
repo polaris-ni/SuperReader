@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.library'
+}
+
+apply from: '../common_apply.gradle'
+
+dependencies {
+    api 'androidx.core:core-ktx:1.7.0'
+    api 'androidx.appcompat:appcompat:1.4.1'
+    api 'com.google.android.material:material:1.6.0'
+    // recycler view
+    api 'androidx.recyclerview:recyclerview:1.2.1'
+    // kotlin coroutine
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1-native-mt'
+    // viewpager
+    api "androidx.viewpager2:viewpager2:1.0.0"
+    // smart refresh layout
+    api 'io.github.scwang90:refresh-layout-kernel:2.0.5'
+    // 万能适配器
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7'
+    // 工具类库
+    api 'com.github.polaris-ni:Treasure:1.0.0-alpha1'
+    // lottie
+    api 'com.airbnb.android:lottie:5.0.3'
+    // 防止数据倒灌的liveData
+    api 'com.kunminx.arch:unpeek-livedata:7.2.0-beta1'
+    // retrofit
+    api 'com.squareup.retrofit2:retrofit:2.9.0'
+    api 'com.squareup.retrofit2:converter-gson:2.9.0'
+    // okhttp的log信息
+    api 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.7'
+    // ARouter api
+    api 'com.alibaba:arouter-api:1.5.2'
+    // ARouter annotation processor
+    kapt 'com.alibaba:arouter-compiler:1.5.2'
+    // Room
+    def room_version = "2.4.2"
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+}

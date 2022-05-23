@@ -10,7 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://www.jitpack.io' }
     }
 }
 rootProject.name = "Super Reader"
 include ':app'
+include ':libCommon'
+include ':bizBookshelf'

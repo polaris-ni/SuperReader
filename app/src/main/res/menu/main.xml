@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemBookshelf"
+        android:icon="@drawable/ic_book_24"
+        android:title="@string/bookshelf" />
+
+    <item
+        android:id="@+id/itemDiscover"
+        android:icon="@drawable/ic_discover_24"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/itemMe"
+        android:icon="@drawable/ic_me_24"
+        android:title="@string/me" />
+
+</menu>
