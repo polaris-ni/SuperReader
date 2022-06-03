@@ -11,10 +11,12 @@
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/app/src/main/res/menu/main.xml" value="0.23541666666666666" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/bizBookshelf/src/main/res/layout/bs_fragment_main.xml" value="0.22135416666666666" />
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/bizSetting/src/main/res/layout/setting_fragment_main.xml" value="0.22135416666666666" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/app_icon.xml" value="0.182" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_bg_12_2b8fec.xml" value="0.182" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_ic_bar_return_24.xml" value="0.182" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_ic_empty_96.xml" value="0.182" />
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_ic_error_96.xml" value="0.1" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_ic_more_24.xml" value="0.182" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/drawable/common_ic_warning_24.xml" value="0.182" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/font-v26/font.xml" value="0.25052083333333336" />
@@ -24,6 +26,7 @@
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/layout/common_fragment_root.xml" value="0.22135416666666666" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/layout/common_layout_custom_holder.xml" value="0.22135416666666666" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libCommon/src/main/res/layout/common_layout_footer.xml" value="0.22135416666666666" />
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/Dev/SuperReader/libUI/src/main/res/layout/ui_layout_switch_setting_item.xml" value="0.264" />
       </map>
     </option>
   </component>

@@ -41,7 +41,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, BaseViewModel>() {
                 .navigation() as Fragment,
             ARouter.getInstance().build(RouterTable.Fragment.BOOKSHELF_MAIN)
                 .navigation() as Fragment,
-            ARouter.getInstance().build(RouterTable.Fragment.BOOKSHELF_MAIN)
+            ARouter.getInstance().build(RouterTable.Fragment.SETTING_MAIN)
                 .navigation() as Fragment
         )
 

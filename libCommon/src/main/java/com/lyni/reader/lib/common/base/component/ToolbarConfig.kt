@@ -19,7 +19,7 @@ class ToolbarConfig(private val binding: CommonLayoutToolbarBinding) : Lifecycle
                 if (backResId > 0) {
                     ivReturn.setImageDrawable(backResId.getDrawable)
                 }
-                ivReturn.click { listener?.invoke() }
+                ivReturn.onClick { listener?.invoke() }
             } else {
                 ivReturn.gone()
             }
@@ -58,7 +58,7 @@ class ToolbarConfig(private val binding: CommonLayoutToolbarBinding) : Lifecycle
                 ivMenu.gone()
             }
         }
-        binding.ivMenu.click {
+        binding.ivMenu.onClick {
             click?.invoke()
         }
         return this

@@ -50,5 +50,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // kotlin中使用kapt ARouter的注解处理器
     kapt 'com.alibaba:arouter-compiler:1.5.2'
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.9.1'
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.9.1'
 }

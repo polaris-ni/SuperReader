@@ -12,6 +12,8 @@ object RouterTable {
 
     object Fragment {
         const val BOOKSHELF_MAIN = "/bookshelf/main"
+
+        const val SETTING_MAIN = "/setting/main"
     }
 
 }

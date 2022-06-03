@@ -29,6 +29,10 @@ import com.lyni.reader.lib.common.base.component.*
 import com.lyni.reader.lib.common.databinding.CommonActivityRootBinding
 import com.lyni.reader.lib.common.databinding.CommonLayoutCustomHolderBinding
 import com.lyni.reader.lib.common.exceptions.BaseException
+import com.lyni.treasure.lib.common.components.fitNavigationBar
+import com.lyni.treasure.lib.common.components.fitStatusBar
+import com.lyni.treasure.lib.common.components.immersiveNavigationBar
+import com.lyni.treasure.lib.common.components.immersiveStatusBar
 import com.lyni.treasure.lib.common.ktx.*
 import kotlinx.coroutines.delay
 import java.lang.reflect.ParameterizedType
@@ -256,7 +260,7 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
             holder.showButton.positive {
                 btnAction.visible()
                 btnAction.text = holder.btnText
-                btnAction.click { holder.event.invoke() }
+                btnAction.onClick { holder.event.invoke() }
             }.otherwise {
                 btnAction.gone()
             }

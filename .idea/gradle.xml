@@ -7,12 +7,17 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Android Studio java home" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bizBookshelf" />
+            <option value="$PROJECT_DIR$/bizSetting" />
             <option value="$PROJECT_DIR$/libCommon" />
+            <option value="$PROJECT_DIR$/libExcuter" />
+            <option value="$PROJECT_DIR$/libParse" />
+            <option value="$PROJECT_DIR$/libUI" />
           </set>
         </option>
       </GradleProjectSettings>

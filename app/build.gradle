@@ -15,4 +15,5 @@ android {
 dependencies {
     implementation project(":libCommon")
     implementation project(":bizBookshelf")
+    implementation project(":bizSetting")
 }

@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.library'
+}
+
+apply from: '../common_apply.gradle'
+
+dependencies {
+    implementation project(':libCommon')
+    implementation files('libs/rhino-1.7.13-1.jar')
+    // rhino JS执行引擎
+//    api 'org.mozilla:rhino-engine:1.7.14'
+//    api 'org.mozilla:rhino:1.7.14'
+}

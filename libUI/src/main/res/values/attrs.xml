@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="check_color" format="color" />
+    <attr name="uncheck_color" format="color" />
+    <attr name="switch_color" format="color" />
+    <attr name="checked" format="boolean" />
+    <attr name="enabled" format="boolean" />
+    <attr name="setting_title" format="string" />
+    <attr name="setting_desc" format="string" />
+    <attr name="setting_icon" format="reference" />
+
+    <declare-styleable name="SwitchButton">
+        <attr name="check_color" />
+        <attr name="uncheck_color" />
+        <attr name="switch_color" />
+        <attr name="checked" />
+        <attr name="enabled" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleSettingItem">
+        <attr name="setting_title" />
+        <attr name="setting_desc" />
+        <attr name="setting_icon" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchSettingItem">
+        <attr name="setting_title" />
+        <attr name="setting_desc" />
+        <attr name="setting_icon" />
+        <attr name="show_switch" format="boolean" />
+        <attr name="check_color" />
+        <attr name="uncheck_color" />
+        <attr name="switch_color" />
+        <attr name="checked" />
+        <attr name="enabled" />
+    </declare-styleable>
+</resources>

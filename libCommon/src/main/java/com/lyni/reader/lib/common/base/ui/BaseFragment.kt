@@ -56,7 +56,7 @@ abstract class BaseFragment<VB : ViewBinding, VM : BaseViewModel> : Fragment(), 
             val clazz = type.actualTypeArguments[0] as Class<VB>
             val method = clazz.getMethod("inflate", LayoutInflater::class.java)
             binding = method.invoke(null, layoutInflater) as VB
-            viewModel = ViewModelProvider(this).get(type.actualTypeArguments[1] as Class<VM>)
+            viewModel = ViewModelProvider(this)[type.actualTypeArguments[1] as Class<VM>]
         }
         rootBinding.flMain.addView(binding.root, 0)
         return rootBinding.root
@@ -253,7 +253,7 @@ abstract class BaseFragment<VB : ViewBinding, VM : BaseViewModel> : Fragment(), 
             holder.showButton.positive {
                 btnAction.visible()
                 btnAction.text = holder.btnText
-                btnAction.click { holder.event.invoke() }
+                btnAction.onClick { holder.event.invoke() }
             }.otherwise {
                 btnAction.gone()
             }
